@@ -1,6 +1,6 @@
 # nbtemplate
 
-NBTemplate is a Python library and command-line tool for rendering [iPython notebooks](http://ipython.org/notebook) via user-specified templates. At its core, NBTemplate is just a simplified veneer over iPython's [`nbconvert` library](https://github.com/ipython/ipython/blob/master/IPython/nbconvert/).
+`nbtemplate` is a Python library and command-line tool for rendering [iPython notebooks](http://ipython.org/notebook) via user-specified templates. At its core, `nbtemplate` is just a simplified veneer over iPython's [`nbconvert` library](https://github.com/ipython/ipython/blob/master/IPython/nbconvert/).
 
 ## Installation
 
