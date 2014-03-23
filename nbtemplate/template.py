@@ -15,14 +15,14 @@ class Template(TemplateExporter):
     default_preprocessors = [] # iPython 2.x
     default_transformers = [] # iPython 1.x
     def __init__(self, template_path, preprocessors=[], filters={}, skip_default_filters=False, **kw):
-        template_abspath = os.path.abspath(template)
+        template_abspath = os.path.abspath(template_path)
         self.template_dir, self.template_name = os.path.split(template_abspath)
         self.preprocessors = preprocessors # iPython 2.x
         self.transformers = preprocessors # iPython 1.x
         if skip_default_filters: t_exporter.default_filters = {}
         self.filters = filters # In addition to default_filters
         super(Template, self).__init__(**kw)
-        self._set_template(template)
+        self._set_template(self.template_name)
 
     def _init_environment(self, extra_loaders=None):
         """Overrides TemplateExporter's _init_environment method,

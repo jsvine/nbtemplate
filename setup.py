@@ -7,7 +7,7 @@ if sys.version_info <= (2, 6):
 
 setup(
     name='nbtemplate',
-    version='0.0.0',
+    version='0.0.1',
     description="Render iPython notebooks to other layouts, via templates. Library and command-line tool.",
     long_description="",
     classifiers=[
