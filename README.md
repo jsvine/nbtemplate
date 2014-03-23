@@ -8,27 +8,27 @@ NBTemplate is a Python library and command-line tool for rendering [iPython note
 
 ## Usage
 
-### Library
+#### Library
 
 TK
 
-### Command-Line Tool
+#### Command-Line Tool
 
 TK
 
 ## API
 
-### nbtemplate.Template(template, template_path, preprocessors=[], filters={}, skip_default_filters=False, **kw)
+#### nbtemplate.Template(template, template_path, preprocessors=[], filters={}, skip_default_filters=False, **kw)
 
 TK
 
-### t.from_file(file_stream, resources=None, **kw)
+#### t.from_file(file_stream, resources=None, **kw)
 
 *Defined by iPython's [nbconvert module](https://github.com/ipython/ipython/blob/master/IPython/nbconvert).*
 
 TK
 
-### t.from_filename(filename, resources=None, **kw)
+#### t.from_filename(filename, resources=None, **kw)
 
 *Defined by iPython's [nbconvert module](https://github.com/ipython/ipython/blob/master/IPython/nbconvert).*
 
